@@ -2,7 +2,7 @@
 -- appends a singleton dimension to the end of the input dimension
 --
 
-local AddSingletonDim, Parent = torch.class('nn.AddSingletonDim', 'nn.Module')
+local AddSingletonDim, Parent = torch.class('jnlayers.utils.AddSingletonDim', 'nn.Module')
 
 function AddSingletonDim:__init()
     Parent.__init(self)
