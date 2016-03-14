@@ -1,7 +1,7 @@
 -- ViewAs
 -- Transform first input size to second input size
 
-local ViewAs, parent = torch.class('jnlayers.utils.ViewAs', 'nn.Module')
+local ViewAs, parent = torch.class('nn.ViewAs', 'nn.Module')
 
 function ViewAs:__init()
     parent.__init(self)

@@ -1,7 +1,7 @@
 -- RemoveLastSingletonDim
 -- if the last dimension is 1, remove it
 
-local RemoveLastSingletonDim, Parent = torch.class('jnlayers.utils.RemoveLastSingletonDim', 'nn.Module')
+local RemoveLastSingletonDim, Parent = torch.class('nn.RemoveLastSingletonDim', 'nn.Module')
 
 function RemoveLastSingletonDim:__init()
     Parent.__init(self)

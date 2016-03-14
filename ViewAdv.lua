@@ -10,9 +10,9 @@
 -- Example
 -- a = torch.FloatTensor({{{1,2,3},{4,5,6}},{{1,2,3},{4,5,6}}}) -- size 2x2x3
 -- layer = jnlayers.utils.ViewAdv(1, -1, 0)
--- -- outputs size = 1x4x3
+-- outputs size = 1x4x3
 
-local ViewAdv, parent = torch.class('jnlayers.utils.ViewAdv', 'nn.Module')
+local ViewAdv, parent = torch.class('nn.ViewAdv', 'nn.Module')
 
 function ViewAdv:__init(...)
     parent.__init(self)

@@ -4,7 +4,7 @@
 -- Usage
 -- layer = jnlayers.utils.ConstantAdd(b, a)
 
-local ConstantAdd, Parent = torch.class('jnlayers.utils.ConstantAdd', 'nn.Module')
+local ConstantAdd, Parent = torch.class('nn.ConstantAdd', 'nn.Module')
 
 function ConstantAdd:__init(constVal,ValMuliplyToInput)
     Parent.__init(self)
